@@ -1,8 +1,6 @@
 import CustomButton from "@/components/CustomButton";
 import { View } from "react-native";
 
-const image = require("@/assets/images/bruce-dalle.png");
-
 export default function Index() {
     return (
         <View className="flex-col items-center justify-center w-full h-screen">

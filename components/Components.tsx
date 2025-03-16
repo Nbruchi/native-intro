@@ -30,8 +30,17 @@ const Components = () => {
 
             {/* Image */}
             <Image
-                source={{ uri: "https://example.com/image.png" }}
+                source={{
+                    uri: "https://img.freepik.com/free-psd/3d-rendering-interface-icon_23-2151553990.jpg?t=st=1742118971~exp=1742122571~hmac=651ce4ca7cba566c8e2dcc6c19f2612c7ea359e2e6ef0e18f367bb8bd3969cb4&w=900",
+                }}
                 style={{ width: 100, height: 100 }}
+            />
+
+            <Image
+                source={require("@/assets/images/bruce-dalle.png")}
+                alt="image"
+                width={200}
+                height={100}
             />
 
             {/* Touchables */}
@@ -79,10 +88,12 @@ const Components = () => {
             {/* Button */}
             <Button title="Submit" onPress={() => alert("Submitted")} />
 
+            {/* Stylesheet */}
             <View style={styles.container}>
                 <Text style={styles.text}>Styled Text</Text>
             </View>
 
+            {/* Alert and platform-specific codes */}
             <Text onPress={() => Alert.alert("Created sucessfully!")}>
                 {platformText}
             </Text>

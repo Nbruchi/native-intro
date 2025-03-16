@@ -183,6 +183,4 @@
 - **Redux**: Centralized state for large and complex apps.
 - **MobX**: Automatic state updates with observables.
 - **Zustand**: Simple, minimalistic, and fast state management.
-```
-
 ---
